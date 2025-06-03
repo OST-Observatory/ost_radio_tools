@@ -1,5 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
 
-.idea
-__pycache__
-*~
+# C executables
+calculate_amplitude
+calculate_amplitude_sum
+calculate_power
+calculate_power_spectrum
+calculate_integrated_power_spectrum
+calculate_spectrogram
+
+# Object files
+*.o
+
+# Data files
+*.dat
+*.f32
+
+# Distribution / packaging
+*.egg-info/
+
+# Virtual environment
+env/
+.env/
+
+# Images
+*.png
+
+# IDE
+.vscode/
+.idea/
 *.swp
+*.swo
+*.un~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Directories with data files
+old_not_used_stuff
+amplitude_files
+amplitude_flux_plots
+spectrogram_data
+spectrogram_plots
+psd_plots
